@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(72.35deg, #003566, #0a9396);
+}
+
+.header-list{
+    list-style-position: inside;
+    list-style-image: url('../icons/rocket-svgrepo-com.svg');
+    text-align: justify;
+    justify-content: space-between;
+      
+}
+
+.header-list li{
+    margin: 0.5rem 1rem;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.hr-footer{
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(248, 74, 167, 0.5), rgba(167, 68, 130, 0.75), rgba(105, 54, 104, 0.65));
+}
+
+footer{
+    text-align: center;
+    font-size: 2rem;
+    color: aquamarine;
+}
