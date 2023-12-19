@@ -11,6 +11,10 @@ body{
     background: linear-gradient(72.35deg, #003566, #0a9396);
 }
 
+nav{
+    height: 5rem;
+}
+
 .header-list{
     list-style-position: inside;
     list-style-image: url('../icons/rocket-svgrepo-com.svg');
@@ -27,8 +31,22 @@ body{
 
 .hr-footer{
     border: 0;
-    height: 3px;
+    height: 5px;
     background-image: linear-gradient(to right, rgba(248, 74, 167, 0.5), rgba(167, 68, 130, 0.75), rgba(105, 54, 104, 0.65));
+}
+
+.heading{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-div1{
+    width: 300px;
 }
 
 footer{
