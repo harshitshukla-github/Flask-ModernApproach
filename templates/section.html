@@ -1,0 +1,10 @@
+{% for job in data %}
+    <section>
+        <h3> {{ data[job]["title"] }} </h3>
+        <h4>Location:-<em>{{  data[job]["location"]  }}</em></h4>
+        {% if 'salary' in data[job] %}
+            <h4>Salary:-<em>{{  data[job]["salary"]  }}</em></h4>
+        {% endif %}
+    </section>
+    <br>
+{% endfor %}
